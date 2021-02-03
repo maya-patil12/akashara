@@ -1,0 +1,408 @@
+@import url('https://fonts.googleapis.com/css?family=Caladea|Roboto+Mono|Slabo+27px&display=swap');
+
+*{
+/* padding:0px;
+margin:0px; */
+/* font-family:sans-serif; */
+font-family: 'Caladea', serif;
+letter-spacing: 1.3px;
+}
+p{
+    font-size:15px;
+}
+hr{
+    height: 1px;
+    background-color: #AE7400;
+    border: none;
+}
+h1{
+    font-size:40px;
+    font-weight:bold;
+}
+.form-control::-webkit-input-placeholder {
+    color:white;
+}
+.btn{
+    background-color: #AE7400;
+    color:white;
+}
+.btn:hover {
+    background-color:white;
+    color: #AE7400;
+    border:1px solid #AE7400;
+}
+.header-container{
+    padding:10px 80px 0px 80px;
+    background-color: #AE7400;
+    margin-left: 12%;
+   
+    color:white;
+}
+.header-content{
+    border-right:1px solid white;
+}
+nav{
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.nav-link{
+    text-decoration:none;
+    color:black;
+    text-transform: uppercase;
+    font-weight:bold;
+}
+.nav-item:hover .nav-link{
+    color:black;
+}
+
+.main-slider{
+    width:100%;
+    height:500px;
+    
+}
+.main-slider-container{
+    padding:0px;
+}
+.aboutus-container{
+    padding:50px 100px;
+    margin:0px;
+    background:linear-gradient(rgba(250, 249, 249, 0.733),rgba(255, 254, 254, 0.76)),url('../images/aboutback.jpg');
+    /* background-image:url('../images/aboutback.jpg'); */
+    background-size:cover;
+    background-attachment:fixed;
+}
+.aboutfounder-container{
+    padding:50px 0px;
+}
+.form-control{
+    background-color:rgb(145, 97, 2);
+    color:white;
+}
+.feature-container{
+    padding:30px 100px;
+    background-color: rgb(246, 248, 248);
+}
+.facility-text{
+    background-color:white;
+    border-radius:50%;
+    height:50px;
+    width:50px;
+    margin:auto;
+    padding-top:3px;
+    border:5px solid #AE7400;
+    margin-top:5px;
+    margin-bottom: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.facility-text-row{
+    border:2px solid #AE7400;
+    border-radius:70px 70px 70px 70px;
+    margin-top:15px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.facility-row-up{
+    margin-top:60px;
+}
+.row-padding-last{
+    padding:5px 10px 0px 10px;
+}
+.row-padding{
+    padding:10px 10px;
+}
+.course-container{
+    padding:0px;
+    margin:0px;
+}
+.course-div{
+    padding:30px 20px;
+    margin:0px;
+    
+    /* border:1px solid rgb(196, 196, 196); */
+}
+.coursepage-container{
+    padding:30px 100px 50px 100px;
+}
+.coursepage-div{
+    border:1px solid #AE7400;
+    border-radius:20px;
+    padding:10px 20px;
+    height:400px;
+    background-color:#1b262c;
+    color:white;
+}
+.coursepage-divup{
+    color:white;
+    width:80px;
+    height:80px;
+    padding-top:16px;
+    border:1px solid black;
+    margin-top:-40px;
+    background-color: #AE7400;
+    box-shadow:inset 0px 0px 10px rgba(235, 181, 5, 0.5);
+}
+.coursepage-heading{
+    font-size:15px;
+    font-weight:bold;
+    color:#AE7400;
+}
+.coursepage-ul{
+    font-size: 14px;
+}
+.gallery-container{
+    padding:30px 100px 40px 100px;
+    background-color:#AE7400;
+   
+}
+.contact-container{
+    padding:80px 80px;
+    background-color: rgb(244, 247, 247);
+}
+.contact-div{
+    border:2px solid #AE7400;
+    padding:0px 30px;
+    height:150px;
+}
+.social-link{
+    text-decoration: none;
+    color:white;
+}
+.contact-div-up{
+    border:2px solid #AE7400;
+    border-radius:50%;
+    height:70px;
+    width:70px;
+    padding-top:20px;
+    margin-top:-35px;
+    /* margin-left:20px; */
+    background-color:white;
+    color:#AE7400;
+}
+.contact-color{
+    color:black;
+}
+.contact-div:hover .contact-div-up{
+    background-color:#AE7400;
+    color:white;
+}
+.facebook-border{
+    border:2px solid #AE7400;
+}
+.footer-container{
+    background-color:#AE7400;
+    padding:30px 80px 30px 100px;
+    
+}
+.footer-link{
+    text-decoration:none;
+    color:white;
+    font-size:20px;
+}
+.footer-logo{
+    padding-top:60px;
+}
+.footer-text{
+    color:white;
+    font-size:20px;
+}
+.copyright-container{
+    border-top:1px solid rgb(94, 94, 94);
+    background-color:#1b262c;
+    padding:10px;
+    color:white;
+}
+
+
+/*gallery slider */
+
+  
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-slider
+{
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+            user-select: none;
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.slick-list
+{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+.slick-list:focus
+{
+    outline: none;
+}
+.slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+}
+
+.slick-slider .slick-track,
+.slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+}
+
+.slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    display: block;
+}
+.slick-track:before,
+.slick-track:after
+{
+    display: table;
+    content: '';
+}
+.slick-track:after
+{
+    clear: both;
+}
+.slick-loading .slick-track
+{
+    visibility: hidden;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+    /* height: 100%; */
+    min-height: 1px;
+}
+[dir='rtl'] .slick-slide
+{
+    float: right;
+}
+.slick-slide img
+{
+    display: block;
+}
+.slick-slide.slick-loading img
+{
+    display: none;
+}
+.slick-slide.dragging img
+{
+    pointer-events: none;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+}
+.slick-loading .slick-slide
+{
+    visibility: hidden;
+}
+.slick-vertical .slick-slide
+{
+    display: block;
+    height: auto;
+    border: 1px solid transparent;
+}
+.slick-arrow.slick-hidden {
+    display: none;
+}
+
+
+
+
+@media screen and (max-width:765px){
+    .laptop{
+        display:none;
+    }  
+    p{
+        font-size:18px;
+    }
+    h5{
+        font-size:17px;
+        font-weight:bold;
+    }
+    .footer-container{
+        padding:20px 10px;
+    } 
+    .main-slider{
+        width:100%;
+        height:300px;
+    }
+    .aboutus-container{
+        padding:50px 20px;
+    }
+    .aboutfounder-container{
+        padding:50px 20px;
+    }
+    .feature-container{
+        padding:30px 20px;
+    }
+    .contact-container{
+        padding:50px 20px;
+    }
+    .contact-div{
+       margin-top:20px;
+       margin-bottom:20px;
+       height:170px;
+    
+    }
+    .gallery-container{
+        padding:80px 0px;
+    }
+    .coursepage-container{
+        padding:30px 10px 50px 10px;
+    }
+    .coursepage-div{
+        padding:10px 20px;
+        height:430px;
+        margin-top:10px;
+        margin-bottom:30px
+    }
+    .coursepage-heading{
+        font-size:18px;
+    }
+    .facility-row-up{
+        margin-top:10px;
+    }
+    .facility-no{
+        padding-top:40px;
+    }
+    .facebook-border{
+        border:none;
+    }
+    .footer-logo{
+        padding-top:20px;
+    }
+}
+@media screen and (min-width:765px){
+    .mobile{
+        display:none;
+    }  
+}
+
+
+
